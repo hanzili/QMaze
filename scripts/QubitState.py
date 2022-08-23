@@ -3,6 +3,7 @@ from godot import *
 from qiskit import *
 from qiskit import QuantumCircuit, assemble, Aer
 from qiskit.visualization import plot_bloch_multivector
+from qiskit.quantum_info import Statevector
 import random
 
 
@@ -29,7 +30,7 @@ class QubitState(Spatial):
 		self.get_node("../H_gates/H_gate").connect("body_entered",self,"_on_H_gate_body_entered")
 		self.get_node("../noise").connect("body_entered",self,"_on_noise_body_entered")
 		target_circ = QubitState.target_circ
-		for i in range(2):
+		for i in range(4):
 			a = random.randint(1, 4)
 			if a==1:
 				target_circ.y(0)
@@ -39,16 +40,18 @@ class QubitState(Spatial):
 				target_circ.z(0)
 			else:
 				target_circ.h(0)
-		target_circ.measure_all()
+		QubitState.target_outputstate = Statevector.from_instruction(target_circ)
+		print(QubitState.target_outputstate)
+		#target_circ.measure_all()
 		#target_circ.save_statevector()
 		#sim = Aer.get_backend('statevector_simulator')
 		#qobj = assemble(target_circ)
 		#state = sim.run(qobj).result().get_statevector()
 		#plot_bloch_multivector(state)
-		backend = Aer.get_backend('statevector_simulator')
-		job = execute(target_circ, backend)
-		result = job.result()
-		QubitState.target_outputstate = result.get_statevector(target_circ)
+		#backend = Aer.get_backend('statevector_simulator')
+		#job = execute(target_circ, backend)
+		#result = job.result()
+		#QubitState.target_outputstate = result.get_statevector(target_circ)
 		#print(target_outputstate)
 		#print(result.get_statevector(target_circ))
 		print(QubitState.target_circ)
@@ -90,17 +93,13 @@ class QubitState(Spatial):
 	
 	def _on_Button_pressed(self):
 		circ = QubitState.circ
-		circ.measure_all()
-		backend = Aer.get_backend('statevector_simulator')
-		job = execute(circ, backend)
-		result = job.result()
-		outputstate = result.get_statevector(circ)
+		#circ.measure_all()
+		#backend = Aer.get_backend('statevector_simulator')
+		#job = execute(circ, backend)
+		#result = job.result()
+		outputstate = Statevector.from_instruction(circ)
 		print(circ)
 		self.get_node("../Control/Label2").text = str(outputstate)
-		print(QubitState.target_outputstate[0])
-		print(QubitState.target_outputstate[1])
-		print(outputstate[0])
-		print(outputstate[1])
 		if outputstate[0] == QubitState.target_outputstate[0] and outputstate[1] == QubitState.target_outputstate[1]:
 			print("win!")
 			self.get_tree().change_scene("res://Win.tscn")
