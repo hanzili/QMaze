@@ -3,7 +3,7 @@
 # :space_invader: Quantum Maze
 
 
-# Introduction
+# Team Introduction
 **Team Name:** Quantum Maniacs
 
 **Challenge Name:** Humans vs Quantum Computers (IBM)
@@ -92,11 +92,6 @@ eMail: [_tsrisowmya@gmail.com_  ](mailto:tsrisowmya@gmail.com)
 We have developed a Quantum Game “ Quantum Maze” using IBM Qiskit and Godot. Our Aim is to introduce the players to the world of Quantum Computation. Quantum Maze helps the players to learn about Qubits, Quantum gates, Quantum Circuits, and Noise.
 
 
-## History of Quantum Games:
-
-Early history of computer games dates as far back as the history of digital computers. In 1950 one of the ﬁrst games on computers, Bertie the Brain, was exhibited in the Canadian National Exhibition . Its main purpose was to demonstrate the use of vacuum tubes (and light bulbs), and it did it by playing Tic-tac-toe. In 1951 Nimrod played the game Nim, again using vacuum tubes and light bulbs. There the purpose for developing a game for a computer was more of an educational kind, as it illustrated the then seemingly strange idea of programming principles and algorithms One of the earliest if not the ﬁrst commercial game bearing the word “quantum” in its title was called Quantum produced for Atari in 1982. There you enter a subatomic world to capture particles using optical trackball included in the game
-
-
 ## Story 
 
 In the Quantum world, your worst enemy is Noise. When the qubits interact with the noise it results in an uncontrollable change in the quantum states and causes a loss of information stored by the quantum computer. Your mission is to help the qubit to achieve a given target state by passing through a certain set of quantum gates and also avoiding the noise balls which are scattered around the maze.
@@ -126,10 +121,10 @@ Characterizing the player and conceptualizing the quantum world in a way that is
 # Software & Tools Used  
 
 
-- **Qiskit**
-- **Godot**
-- **LaTex**
-- **GitHub** 
+- Qiskit
+- Godot
+- LaTex
+- GitHub
 
 
 # Future Plans
@@ -160,7 +155,3 @@ Characterizing the player and conceptualizing the quantum world in a way that is
 [_https://uwaterloo.ca/news/news/new-quantum-cats-game-launches-better-understanding-quantum_](https://uwaterloo.ca/news/news/new-quantum-cats-game-launches-better-understanding-quantum)
 
 [_https://decodoku.medium.com/quantum-battleships-the-first-multiplayer-game-for-a-quantum-computer-e4d600ccb3f3_](https://decodoku.medium.com/quantum-battleships-the-first-multiplayer-game-for-a-quantum-computer-e4d600ccb3f3)
-
-  
-  
-  
