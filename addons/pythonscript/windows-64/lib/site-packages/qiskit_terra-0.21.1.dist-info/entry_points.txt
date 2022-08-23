@@ -1,0 +1,3 @@
+[qiskit.unitary_synthesis]
+aqc = qiskit.transpiler.synthesis.aqc.aqc_plugin:AQCSynthesisPlugin
+default = qiskit.transpiler.passes.synthesis.unitary_synthesis:DefaultUnitarySynthesis
