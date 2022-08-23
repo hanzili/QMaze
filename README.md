@@ -1,90 +1,88 @@
 **WOMANIUM HACKATHON 2022**
 
-**Quantum Maze****  
-****Humans vs Quantum Computers (IBM)**
-
-**\_\_\_**
+# :space_invader: Quantum Maze
 
 
 # Introduction
+**Team Name:** Quantum Maniacs
+
+**Challenge Name:** Humans vs Quantum Computers (IBM)
+
+**Pitch Presenter:** Hanzi Li
+
+****Member Names:****
+
+------------
+
+**Abdullah Kazi**
+
+Discord ID: **K🐺#8200**
+
+GitHub ID: **AbdullahKazi500**
+
+eMail: [_kazi.abdullah.temea66@gmail.com_](mailto:kazi.abdullah.temea66@gmail.com)
+
+------------
+
+**Afrah Aamer**
+
+Discord ID: alastine#5191
+
+GitHub ID: AfrahAamer
+
+eMail: [_afrahaamer@gmail.com_](mailto:afrahaamer@gmail.com)
+ 
+------------
 
 
-## Team Name:Quantum Maniacs
+**Hanzi Li**
 
 
-## Challenge Name:Humans vs Quantum Computers (IBM)
+Discord ID: hanzili#4885
 
 
-## Pitch Presenter:Hanzi Li
+GitHub ID: hanzili
 
 
-## Member Names:  
+eMail: [_hanzili0217@gmail.com_](mailto:hanzili0217@gmail.com)
+
+------------
+
+**Raymundo Vazquez**
 
 
-- **### Abdullah Kazi**
+Discord ID: Raymundo21#2210
 
 
-#### Discord ID: K🐺#8200
+GitHub ID: Raymundv
 
 
-#### GitHub ID: AbdullahKazi500
+eMail: [_gusvazra@student.gu.se_](mailto:gusvazra@student.gu.se)
+
+------------
+
+**Shanice St John**
 
 
-#### eMail:[_kazi.abdullah.temea66@gmail.co_](mailto:kazi.abdullah.temea66@gmail.com)_m_
-
-- **### Afrah Aamer**
+Discord ID: Shan#4498
 
 
-#### Discord ID: alastine#5191
+eMail: [_thebutterflymaze@gmail.com_](mailto:thebutterflymaze@gmail.com)
+
+------------
+
+**Sri Sowmya Tirukkovalluri**
 
 
-#### GitHub ID: AfrahAamer
+Discord ID: srisowmya_tirukkovalluri#1409
 
 
-#### eMail: [_afrahaamer@gmail.com_](mailto:afrahaamer@gmail.com)__
-
-- **### Hanzi Li**
+GitHub ID: Sowmyat1
 
 
-#### Discord ID: hanzili#4885
+eMail: [_tsrisowmya@gmail.com_  ](mailto:tsrisowmya@gmail.com)
 
-
-#### GitHub ID: hanzili
-
-
-#### eMail: [_hanzili0217@gmail.com_](mailto:hanzili0217@gmail.com)
-
-- **### Raymundo Vazquez**
-
-
-#### Discord ID: Raymundo21#2210
-
-
-#### GitHub ID: Raymundv
-
-
-#### eMail: [_gusvazra@student.gu.se_](mailto:gusvazra@student.gu.se)__
-
-- **### Shanice St John**
-
-
-#### Discord ID: Shan#4498
-
-
-#### eMail: [_thebutterflymaze@gmail.com_](mailto:thebutterflymaze@gmail.com)__
-
-- **### Sri Sowmya Tirukkovalluri**
-
-
-#### Discord ID: srisowmya_tirukkovalluri#1409
-
-
-#### GitHub ID: Sowmyat1
-
-
-#### eMail: [_tsrisowmya@gmail.com_  
-](mailto:tsrisowmya@gmail.com)
-
+------------
 
 # Game Summary
 
@@ -99,22 +97,19 @@ We have developed a Quantum Game “ Quantum Maze” using IBM Qiskit and Godot.
 Early history of computer games dates as far back as the history of digital computers. In 1950 one of the ﬁrst games on computers, Bertie the Brain, was exhibited in the Canadian National Exhibition . Its main purpose was to demonstrate the use of vacuum tubes (and light bulbs), and it did it by playing Tic-tac-toe. In 1951 Nimrod played the game Nim, again using vacuum tubes and light bulbs. There the purpose for developing a game for a computer was more of an educational kind, as it illustrated the then seemingly strange idea of programming principles and algorithms One of the earliest if not the ﬁrst commercial game bearing the word “quantum” in its title was called Quantum produced for Atari in 1982. There you enter a subatomic world to capture particles using optical trackball included in the game
 
 
-## Story :
+## Story 
 
 In the Quantum world, your worst enemy is Noise. When the qubits interact with the noise it results in an uncontrollable change in the quantum states and causes a loss of information stored by the quantum computer. Your mission is to help the qubit to achieve a given target state by passing through a certain set of quantum gates and also avoiding the noise balls which are scattered around the maze.
 
-_Survival Tip: Be careful of noise balls, they are very powerful and can kill your quantum state with just one touch!_
+> Survival Tip: Be careful of noise balls, they are very powerful and can kill your quantum state with just one touch!
 
 
-## How To Play:
+## How To Play
 
 1. **Move the ball through the blocks. Each block represents a quantum gate.**
 2. **Use the keypad to move through the maze.**
 3. **You must avoid the noise objects, otherwise, you’ll lose the game.**
-
-Link to a video of the game:
-
-https&#x3A;//drive.google.com/file/d/1_oKQ7oStvsb5tgTWm-Rmj3Z_zAYdiITj/view?usp=drivesdk
+4. [Watch the Gameplay/Walthrough](https://drive.google.com/file/d/1_oKQ7oStvsb5tgTWm-Rmj3Z_zAYdiITj/view)
 
 
 # How to Install
@@ -128,28 +123,25 @@ Characterizing the player and conceptualizing the quantum world in a way that is
 - Since there are no quantum games which were developed using Godot. We ran into a
 
 
-
-
 # Software & Tools Used  
 
 
 - **Qiskit**
 - **Godot**
 - **LaTex**
-- **GitHub****  
-  **
+- **GitHub** 
 
 
 # Future Plans
 
-1. **Add more levels to introduce more quantum gates and different types of noise obstacles to the game.**
-2. **Introduce more quantum computing concepts eg. Entanglement, Quantum Tunneling, etc.**
-3. **Introduce more graphics and animations in the Game**
-4. **Introduce multiple qubits to the game.**
-5. **Introduce error correcting codes to the game which can help the player restore the state of qubit after they come in contact with the noise balls.**
-6. **Introduce engaging characters for the game storyline. Represent them as Qubits, state 0 being a bad person, and state 1 a good character. Through life experiences(quantum gates), the character chooses and affects its inner state, and then after a measurement (situation) decides to be either bad or good.**
-7. **Introduce engaging characters for the game storyline.**
-8. **Represent them as Qubits, state 0 being a bad person, and state 1 a good character. Through life experiences(quantum gates), the character chooses and affects its inner state, and then after a measurement (situation) decides to be either bad or good.**
+1. Add more levels to introduce more quantum gates and different types of noise obstacles to the game.
+2. Introduce more quantum computing concepts eg. Entanglement, Quantum Tunneling, etc.
+3. Introduce more graphics and animations in the Game
+4. Introduce multiple qubits to the game
+5. Introduce error correcting codes to the game which can help the player restore the state of qubit after they come in contact with the noise balls
+6. Introduce engaging characters for the game storyline. Represent them as Qubits, state 0 being a bad person, and state 1 a good character. Through life experiences(quantum gates), the character chooses and affects its inner state, and then after a measurement (situation) decides to be either bad or good
+7. Introduce engaging characters for the game storyline
+8. Represent them as Qubits, state 0 being a bad person, and state 1 a good character. Through life experiences(quantum gates), the character chooses and affects its inner state, and then after a measurement (situation) decides to be either bad or good
 
 
 # License
