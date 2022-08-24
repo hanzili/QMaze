@@ -121,7 +121,21 @@ In the Quantum world, your worst enemy is Noise. When the qubits interact with t
 
 
 # How to Install
-
+Python environment is already setted up from [godot-python](https://github.com/touilleMan/godot-python)
+and [Qiskit library](https://github.com/Qiskit) is already installed for windows-64
+Install qiskit：
+1. ```cd addons/pythonscript/(choose_operating_system)```
+2. For windows:
+    ```
+    python.exe -m ensurepip
+    python.exe -m pip install qiskit
+    ```
+    For MAC:
+    ```
+    cd ox-64/bin
+    python3 -m ensurepip
+    python3 -m pip install qiskit
+    ```
 
 # Challenges Faced
 
