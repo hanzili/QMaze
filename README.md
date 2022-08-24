@@ -150,8 +150,7 @@ Characterizing the player and conceptualizing the quantum world in a way that is
 
 - Qiskit
 - Godot
-- LaTex
-- GitHub
+- Python
 
 
 # Future Plans
