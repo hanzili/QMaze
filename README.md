@@ -1,7 +1,20 @@
+![License](https://img.shields.io/github/license/johnturner4004/readme-generator.svg?style=for-the-badge) ![Repo Size](https://img.shields.io/github/languages/code-size/johnturner4004/readme-generator.svg?style=for-the-badge) ![TOP_LANGUAGE](https://img.shields.io/github/languages/top/johnturner4004/readme-generator.svg?style=for-the-badge) ![FORKS](https://img.shields.io/github/forks/johnturner4004/readme-generator.svg?style=for-the-badge&social) ![Stars](https://img.shields.io/github/stars/johnturner4004/readme-generator.svg?style=for-the-badge)
+
 **WOMANIUM HACKATHON 2022**
 
 # :space_invader: Quantum Maze
 
+- [Team Introduction](#team-introduction)
+- [Game Summary](#game-summary)
+  - [Mission](#mission)
+  - [Story](#story)
+  - [How To Play](#how-to-play)
+- [How to Install](#how-to-install)
+- [Challenges Faced](#challenges-faced)
+- [Software & Tools Used](#software--tools-used)
+- [Future Plans](#future-plans)
+- [License](#license)
+- [References](#references)
 
 # Team Introduction
 **Team Name:** Quantum Maniacs
@@ -87,7 +100,7 @@ eMail: [_tsrisowmya@gmail.com_  ](mailto:tsrisowmya@gmail.com)
 # Game Summary
 
 
-## Mission:
+## Mission
 
 We have developed a Quantum Game “ Quantum Maze” using IBM Qiskit and Godot. Our Aim is to introduce the players to the world of Quantum Computation. Quantum Maze helps the players to learn about Qubits, Quantum gates, Quantum Circuits, and Noise.
 
@@ -141,6 +154,7 @@ Characterizing the player and conceptualizing the quantum world in a way that is
 
 # License
 
+<a href="https://choosealicense.com/licenses/mit/"><img src="https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/mit.svg" height=40 />MIT License</a>
 
 # References
 
