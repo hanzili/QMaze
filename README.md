@@ -1,7 +1,5 @@
 ![License](https://img.shields.io/github/license/hanzili/QMaze?style=for-the-badge) ![Repo Size](https://img.shields.io/github/languages/code-size/hanzili/QMaze?style=for-the-badge) ![TOP_LANGUAGE](https://img.shields.io/github/languages/top/hanzili/QMaze?style=for-the-badge) ![FORKS](https://img.shields.io/github/forks/hanzili/QMaze?style=for-the-badge&social) ![Stars](https://img.shields.io/github/stars/hanzili/QMaze?style=for-the-badge)
 
-**WOMANIUM HACKATHON 2022**
-
 # :space_invader: Quantum Maze
 
 - [Game Summary](#game-summary)
@@ -42,21 +40,9 @@ In the Quantum world, your worst enemy is Noise. When the qubits interact with t
 
 
 # How to Install
-Python environment is already setted up from [godot-python](https://github.com/touilleMan/godot-python)
-and [Qiskit library](https://github.com/Qiskit) is already installed for windows-64
-Install qiskit：
-1. ```cd addons/pythonscript/(choose_operating_system)```
-2. For windows:
-    ```
-    python.exe -m ensurepip
-    python.exe -m pip install qiskit
-    ```
-    For MAC:
-    ```
-    cd ox-64/bin
-    python3 -m ensurepip
-    python3 -m pip install qiskit
-    ```
+1. install [godot-python](https://github.com/touilleMan/godot-python) from godot addons
+2. install [Qiskit library](https://github.com/Qiskit) using pip
+
 
 # Challenges Faced
 
@@ -90,16 +76,3 @@ Characterizing the player and conceptualizing the quantum world in a way that is
 
 <a href="https://choosealicense.com/licenses/mit/"><img src="https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/mit.svg" height=40 />MIT License</a>
 
-# References
-
-[_https://builtin.com/hardware/quantum-computer-games_](https://builtin.com/hardware/quantum-computer-games)
-
-[_https://www.wilsoncenter.org/blog-post/games-round-quantum-computing_](https://www.wilsoncenter.org/blog-post/games-round-quantum-computing)
-
-[_https://www.researchgate.net/publication/361022971_Defining_Quantum_Games_](https://www.researchgate.net/publication/361022971_Defining_Quantum_Games)
-
-[_https://decodoku.medium.com/why-we-need-to-make-quantum-games-6f8c7bc4ace7_](https://decodoku.medium.com/why-we-need-to-make-quantum-games-6f8c7bc4ace7)
-
-[_https://uwaterloo.ca/news/news/new-quantum-cats-game-launches-better-understanding-quantum_](https://uwaterloo.ca/news/news/new-quantum-cats-game-launches-better-understanding-quantum)
-
-[_https://decodoku.medium.com/quantum-battleships-the-first-multiplayer-game-for-a-quantum-computer-e4d600ccb3f3_](https://decodoku.medium.com/quantum-battleships-the-first-multiplayer-game-for-a-quantum-computer-e4d600ccb3f3)
